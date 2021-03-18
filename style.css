@@ -1,0 +1,31 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.flexbox {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+table {
+    border: 0.1vh solid black;
+    height: 60vh;
+    width: 60vh;
+    flex-direction: column;
+}
+
+.color1 {
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-family: "SansSerif", sans-serif;
+}
+.color2 {
+    background-color: #222;
+    color:white;
+    text-align: center;
+    font-family: "SansSerif", sans-serif;
+}
